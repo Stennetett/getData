@@ -1,6 +1,6 @@
 <?php
 // Connect to the MySQL database
-$mysqli = new mysqli("localhost", "root", "", "drops");
+$mysqli = new mysqli("161.35.66.82", "root", "123banan123@", "sys");
 
 // Check connection
 if ($mysqli->connect_error) {
@@ -10,7 +10,7 @@ if ($mysqli->connect_error) {
 // Define the API endpoint
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     // Perform a SELECT query
-    $result = $mysqli->query("SELECT * FROM color_table");
+   $result = $mysqli->query("SELECT * FROM day_plan");
 
     // Check if the query was successful
     if ($result) {
