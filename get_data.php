@@ -35,3 +35,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
 // Close the database connection
 $mysqli->close();
+?>
