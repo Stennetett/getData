@@ -1,3 +1,9 @@
-<?php
-<h1>hej</h1>
-?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello PHP</title>
+</head>
+<body>
+    <h1><?php echo "Hello"; ?></h1>
+</body>
+</html>
