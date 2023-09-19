@@ -1,6 +1,6 @@
 <?php
 // Connect to the MySQL database
-$mysqli = new mysqli("161.35.66.82", "localhost", "123banan123@", "sys");
+$mysqli = new mysqli("localhost", "root", "123banan123@", "sys");
 
 // Check connection
 if ($mysqli->connect_error) {
